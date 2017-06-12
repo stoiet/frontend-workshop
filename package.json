@@ -1,0 +1,14 @@
+{
+  "name": "frontend-workshop",
+  "version": "1.0.0",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoiet/frontend-workshop.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/stoiet/frontend-workshop/issues"
+  },
+  "homepage": "https://github.com/stoiet/frontend-workshop#readme"
+}
