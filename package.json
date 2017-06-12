@@ -10,5 +10,8 @@
   "bugs": {
     "url": "https://github.com/stoiet/frontend-workshop/issues"
   },
-  "homepage": "https://github.com/stoiet/frontend-workshop#readme"
+  "homepage": "https://github.com/stoiet/frontend-workshop#readme",
+  "devDependencies": {
+    "typescript": "2.3.4"
+  }
 }
