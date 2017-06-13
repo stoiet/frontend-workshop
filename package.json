@@ -16,8 +16,11 @@
   "devDependencies": {
     "@types/jasmine": "2.5.52",
     "@types/node": "7.0.30",
+    "@types/ramda": "0.0.12",
     "jasmine": "2.6.0",
+    "ramda": "0.24.1",
     "ts-node": "3.0.6",
+    "tslib": "1.7.1",
     "typescript": "2.3.4"
   }
 }

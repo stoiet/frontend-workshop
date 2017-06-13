@@ -1,9 +1,11 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
+    "allowJs": true,
     "allowSyntheticDefaultImports": false,
     "alwaysStrict": true,
     "baseUrl": "./",
+    "checkJs": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
