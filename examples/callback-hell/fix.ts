@@ -20,3 +20,4 @@ asyncStatementWithPromise(() => console.log(`${flowStr} #1`))
   await asyncStatementWithPromise(() => console.log(`${flowStr} #4`));
   await asyncStatementWithPromise(() => console.log(`${flowStr} #5`));
 })();
+

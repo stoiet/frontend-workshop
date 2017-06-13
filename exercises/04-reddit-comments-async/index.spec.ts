@@ -19,7 +19,7 @@ const asyncTest = callback => {
   };
 };
 
-describe('[03] #getSubRedditComments', () => {
+describe('[04] #getSubRedditComments', () => {
 
   it('should return with comments from sub-reddits have #language tag', asyncTest(async () => {
     const tokens = [v4(), v4()];
