@@ -10,26 +10,9 @@ const tsLoaderOptions = JSON.stringify({
 });
 
 export default [{
-  context: _('../../'),
+  context: _('./'),
   entry: {
-    application: _('./src/bootstrap.ts'),
-    vendors: [
-      '@angular/common',
-      '@angular/compiler',
-      '@angular/core',
-      '@angular/forms',
-      '@angular/http',
-      '@angular/platform-browser',
-      '@angular/platform-browser-dynamic',
-      '@angular/router',
-      'deep-freeze-node',
-      'reflect-metadata',
-      'core-js',
-      'zone.js',
-      'ramda',
-      'rxjs',
-      'tslib'
-    ]
+    application: _('./src/bootstrap.ts')
   },
   output: {
     filename: '[name].bundle.js',
@@ -60,13 +43,13 @@ export default [{
   },
   target: 'web',
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin({ name: 'vendors', minChunks: Infinity }),
     new webpack.ContextReplacementPlugin(
       /angular(\\|\/)core(\\|\/)@angular/,
       _('../../src'), {}
     )
   ],
   devServer: {
+    contentBase: _('./'),
     port: process.env.CLIENT_PORT || 9200,
     host: process.env.CLIENT_HOST || '127.0.0.1',
     watchOptions: {
