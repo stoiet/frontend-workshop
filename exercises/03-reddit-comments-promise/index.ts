@@ -9,9 +9,12 @@ interface Item {
   tags: string[];
 }
 
-type ItemResponse = { data: Item[] };
 
-const getFilteredItemIds = ({ data: items }: ItemResponse) => items
+const getSubReddits = () => axios
+  .get('http://reddit.com/api/sub-reddits')
+  .then(getData);
+
+const getFilteredItemIds = (items: Item[]) => items
   .filter(item => item.tags.includes('#language'))
   .map(item => item.id);
 
@@ -31,7 +34,7 @@ const getComments = ({ id, token }) => axios
 
 
 export const getSubRedditComments = () => {
-  return axios.get('http://reddit.com/api/sub-reddits')
+  return getSubReddits()
     .then(getFilteredItemIds)
     .then(subscribeByIds)
     .then(getCommentsFromSubscriptions)
