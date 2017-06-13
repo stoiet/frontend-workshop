@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "alwaysStrict": true,
+    "baseUrl": "../../",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "lib": ["es2016", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "../../dist",
+    "pretty": true,
+    "removeComments": true,
+    "rootDir": "../../",
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["../../node_modules", "**/*.spec.ts"]
+}
