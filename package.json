@@ -2,7 +2,9 @@
   "name": "frontend-workshop",
   "version": "1.0.0",
   "scripts": {
-    "test:00": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"[00]\" || true"
+    "test:00": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"00\" || true",
+    "test:01": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"01\" || true",
+    "test:02": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"02\" || true"
   },
   "repository": {
     "type": "git",
