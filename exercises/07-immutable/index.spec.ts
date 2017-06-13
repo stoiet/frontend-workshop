@@ -89,19 +89,19 @@ describe('[07] #addFriend', () => {
 
 });
 
-describe('[07] #removeFriend', () => {
+// describe('[07] #removeFriend', () => {
 
-  fit('should remove the given friend', () => {
-    const modified = removeFriend(yoda, 'Padmé');
-    expect(modified.friends).toEqual(['Obi-Wan', 'Dooku']);
-  });
+//   fit('should remove the given friend', () => {
+//     const modified = removeFriend(yoda, 'Padmé');
+//     expect(modified.friends).toEqual(['Obi-Wan', 'Dooku']);
+//   });
 
 
-  it('should keep other properties untouched', () => {
-    const modified = removeFriend(yoda, 'Padmé');
-    expect(modified.firstName).toEqual(yoda.firstName);
-    expect(modified.lastName).toEqual(yoda.lastName);
-    expect(modified.address).toBe(yoda.address);
-  });
+//   it('should keep other properties untouched', () => {
+//     const modified = removeFriend(yoda, 'Padmé');
+//     expect(modified.firstName).toEqual(yoda.firstName);
+//     expect(modified.lastName).toEqual(yoda.lastName);
+//     expect(modified.address).toBe(yoda.address);
+//   });
 
-});
+// });
