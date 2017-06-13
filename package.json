@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "example:callback-hell": "ts-node ./examples/callback-hell/index.ts",
+    "example:callback-hell:fix": "ts-node ./examples/callback-hell/fix.ts",
     "test:00": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"00\" || true",
     "test:01": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"01\" || true",
     "test:02": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"02\" || true"
