@@ -10,7 +10,8 @@
     "test:03": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"03\" || true",
     "test:04": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"04\" || true",
     "test:05": "webpack-dev-server --config ./exercises/05-tooling/webpack.config.ts --watch",
-    "test:07": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"07\" || true"
+    "test:07": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"07\" || true",
+    "test:08": "JASMINE_CONFIG_PATH=./jasmine.json jasmine --filter=\"08\" || true"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "nock": "9.0.13",
     "pug-static-loader": "1.0.1",
     "ramda": "0.24.1",
+    "rxjs": "5.4.0",
     "ts-loader": "2.1.0",
     "ts-node": "3.0.6",
     "typescript": "2.3.4",
@@ -56,7 +58,6 @@
     "core-js": "2.4.1",
     "reflect-metadata": "0.1.10",
     "tslib": "1.7.1",
-    "rxjs": "5.4.0",
     "twig": "1.10.5",
     "zone.js": "0.8.12"
   }

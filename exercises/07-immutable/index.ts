@@ -1,7 +1,24 @@
-export const modifyFirstName = undefined;
+export type User = {
+  firstName: string;
+  lastName: string;
+  address: {
+    street: string,
+    zip: number
+  };
+  friends: string[];
+}
 
-export const modifyStreet = undefined;
+export function modifyFirstName(user: User, newName: string): User {
+}
 
-export const addFriend = undefined;
+export function modifyStreet(user: User, newStreet: string): User {
 
-export const removeFriend = undefined;
+}
+
+export function addFriend(user: User, newFriend: string): User {
+
+}
+
+export function removeFriend(user: User, friendToRemove: string): User {
+
+}
