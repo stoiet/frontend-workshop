@@ -1,2 +1,2 @@
 
-export const invertObjectProperties = () => {};
+export const invertObjectProperties = undefined;

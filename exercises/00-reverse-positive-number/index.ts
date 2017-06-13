@@ -1,2 +1,2 @@
 
-export const reverseNumber = () => {};
+export const reverseNumber = undefined;
